@@ -1,0 +1,12 @@
+Setup
+Clone the repository:
+git clone <repository_url>
+cd <project_directory>
+
+Install dependencies:
+pip install -r requirements.txt
+pip install python-Levenshtein
+Run the pipeline by executing the main.py script:
+
+python main.py
+The output will be saved in the data/processed/ directory, containing the cleaned and unified data.
